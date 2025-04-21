@@ -1,0 +1,105 @@
+/* ===============================
+  Here is the solution!
+  ALSO CHECK THE FOLLOWING RESOURCES FOR A FULL CSS REFERENCE:
+  https://www.w3schools.com/css/default.asp
+================================ */
+
+/* 🔹 ELEMENT 1: Grabbed by ID */
+#box-one {
+  background-image: url("BubbleTea.png");
+  background-color: rgb(255, 255, 224);
+  background-position: center center;
+  background-repeat: no-repeat;
+  background-size: contain;
+
+  border-style: solid;
+  border-width: 4px;
+  border-color: teal;
+  border-radius: 8px;
+
+  color: rgb(
+    255,
+    255,
+    224
+  ); /*manipulate to make the text appear*?
+  font-size: 18px;
+  font-family: Arial, sans-serif;
+  text-align: left;
+
+  /* ✅ Spacing */
+  padding: 20px;
+  margin: 50px; /* Auto centers the box if it has width */
+  width: 80%;
+}
+
+/* 🔹 ELEMENT 2: Grabbed by class */
+.text {
+  background-image: url("Chihuahua.jpeg");
+  background-repeat: repeat-x;
+  background-size: 150px auto;
+
+  border-style: dotted;
+  border-width: thin;
+  border-color: #ff6347;
+  border-radius: 12px;
+
+  color: darkred;
+  font-size: 20px;
+  font-family: Georgia, serif;
+  text-align: left;
+
+  /* ✅ Spacing */
+  padding: 3px 25px; /* manipulate to make the Chihuahua appear*/
+  margin: 20px;
+}
+
+/* 🔹 ELEMENT 3: Grabbed by element type (h2) */
+h2 {
+  background-image: url("Slime.png");
+  background-repeat: no-repeat;
+  background-attachment: scroll;
+  background-position: right center;
+  background-size: 2000px; /*manipulate to find out slime or dough?*/
+
+  border-style: dashed;
+  border-width: 3px;
+  border-color: rgb(120, 0, 200);
+  border-radius: 4px;
+
+  color: indigo;
+  font-size: 24px;
+  font-family: "Courier New", monospace;
+  text-align: center;
+
+  /* ✅ Spacing */
+  padding: 10px;
+  margin: 20px auto;
+  width: 60%;
+}
+
+/* 🔹 ELEMENT 4: SECTION with class and ID */
+#section-one {
+  background-color: peachpuff;
+  border: 5px double darkolivegreen;
+  border-radius: 16px;
+
+  color: olive;
+  font-size: 16px;
+  font-family: "Trebuchet MS", sans-serif;
+  text-align: right;
+
+  /* ✅ Spacing */
+  padding: 30px;
+  margin: 50px;
+}
+
+/* 🔹 BODY BACKGROUND: Whole page uses Face.jpg */
+body {
+  background-image: url("Face.jpg");
+  background-attachment: fixed;
+  background-repeat: no-repeat;
+  /*did you find the hidden element?
+  manipulate the following lines to make it cover the whole page*/
+  background-size: 15px;
+  background-position: left;
+}

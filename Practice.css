@@ -1,0 +1,67 @@
+/* ===============================
+   🎯 PART 1: CSS REBUILD PRACTICE
+   Now that you’ve seen the styled version...
+   It’s time to recreate the magic from scratch!
+
+   👉 Your mission: Style each element by grabbing it with the correct selector.
+   You'll use background, spacing, borders, and text properties.
+================================ */
+
+/* 🔹 ELEMENT 1 (Bubble Tea) — Select by ID */
+/*
+  ✅ Recreate:
+  - A light background color
+  - A background image (BubbleTea.png)
+  - Positioned background
+  - Visible, readable text
+  - Margin & padding for spacing
+  - A border with color and radius
+*/
+ {
+}
+
+/* 🔹 ELEMENT 2 (Chihuahua Muffins) — Select by class */
+/*
+  ✅ Recreate:
+  - Background image (Chihuahua.jpeg)
+  - Horizontal repeat only
+  - Use padding to hide/reveal the image
+  - Add margin to separate from other blocks
+  - Style the font and add a border
+*/
+ {
+}
+
+/* 🔹 ELEMENT 3 (Slime vs Playdough) — Select by element type (h2) */
+/*
+  ✅ Recreate:
+  - Add background image (Slime.png)
+  - Use a large background-size to explore the full image
+  - Attach background to scroll
+  - Add dashed border and custom font
+  - Center the text and adjust spacing
+*/
+ {
+}
+
+/* 🔹 ELEMENT 4 (Section Placeholder) — Select using ID or class */
+/*
+  ✅ Recreate:
+  - Add a solid background color (not image)
+  - Use border shorthand (width style color)
+  - Right-align the text
+  - Add margin and padding to give it shape
+*/
+ {
+}
+
+/* 🔹 BODY BACKGROUND — Select the <body> tag */
+/*
+  ✅ Recreate:
+  - Add a full-page background image (Face.jpg)
+  - Make it fixed so it stays in place when scrolling
+  - Use background-size and background-position to reveal the image
+  - Experiment with values to cover the full background
+*/
+body {
+}
